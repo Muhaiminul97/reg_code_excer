@@ -1,11 +1,11 @@
 function MaxValArr(arr) {
-   let maxVal = arr[0]; // Initialize maxVal with the first element of the array
+   let maxValArr = arr[0];
    for (let i = 1; i < arr.length; i++) {
-      if (arr[i] > maxVal) {
-         maxVal = arr[i]; // Update maxVal if the current element is greater
+      if (arr[i] > maxValArr) {
+         maxValArr = arr[i];
       }
    }
-   return maxVal; // Return the maximum value found in the array
+   return maxValArr;
 }
 
 const arr = [4, 5, 3, 9];
